@@ -1,0 +1,95 @@
+h1{
+  color:blue;
+  text-decoration: underline;
+  text-align: center;
+  font-size:2.3em;
+  padding-top:50px;
+  font-style: italic;
+  
+}
+h3{
+  color:saddlebrown;
+  font-size:1.7em;
+}
+
+body{
+background-color:paleturquoise;
+padding-left:20px;
+padding-right:20px;
+} 
+ img{
+   width:180px;
+  height:180px;
+  border-radius:50%;
+}  
+.navSection{
+  background-color:mediumseagreen;
+  /* background-color: dimgray; */
+  height:30px;
+  padding:15px;
+  font-size: 1.2em;
+}
+.navLink{
+  padding:7px;
+}
+.position{
+  background-color:lightslategrey;
+  width:500px;
+  height:230px;
+  position:relative;
+  margin-top:50px;
+  padding:30px;
+  
+}
+.food{
+   position:absolute;
+   padding-left:10px;
+}
+.foodPic{
+   position:absolute;
+   right:20px;
+}
+a{
+  color:purple;
+  font-size: 1.2em;
+}
+
+.divAbout{
+  font-size: 1.3em;
+}
+p{
+  font-size: 1.4em;
+  }
+.pAbout{
+  font-size:1.5em;
+  font-weight:bold;
+  color:saddlebrown;
+}
+li{
+  font-size:1.3em;
+}
+.contactForm{
+  width:400px;
+  height:300px;
+  
+  text-align:left;
+  font-size:1.3em;
+}
+.btn:hover{
+  background-color:darkslateblue;
+  }
+.btn{
+  margin-top:10px;
+  padding:5px;
+  font-size: .8em;
+}
+#div3{
+  display:inline-block;
+  padding:40px;
+  margin-left:70px;
+}
+#div4{
+  display:inline-block;
+  padding:40px;
+  margin-left:70px;
+}
