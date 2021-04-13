@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="linearSearch.js"></script>
+  <title>Linear Search</title>
+</head>
+<body>
+  <h2 id="h2">Linear Search</h2>
+  <p id="para1"></p>
+  
+  <script>
+     let arr=[6,1,8,11,1,2];
+     var number=16;
+     let found = -1;
+      found=linearSearch(arr,number);
+     
+     if(found==0){
+      document.getElementById("para1").innerHTML = number + ' found';
+     }else{
+      document.getElementById("para1").innerHTML = number + ' not found';
+     }
+    
+    
+  </script>
+  
+</body>
+</html>
