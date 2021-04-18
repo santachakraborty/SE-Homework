@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>Grid</title>
+  <style>
+
+    .parent{
+      display:grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 50px 1fr 1fr 50px;
+      /* width:100vw; */
+      /* height:100vh; */
+      width:90vw;
+      height:90vh;
+
+
+    }
+    .parent > .header{
+      grid-area:header;
+      border:1px solid black;
+      grid-row:1/2; 
+       grid-column:1/4;
+      /* grid-column-start:1;
+      grid-column-end:4 */
+      
+    }
+    .parent > .nav{
+      grid-area:nav;
+      border:1px solid black;
+      grid-row:2/4;
+      /* grid-row:2/3; */
+      grid-column: 1/2;
+
+    }
+    .parent > .blog{
+      grid-area:blog;
+      border:1px solid black;
+      grid-row:2/4;
+      /* grid-row:2/3; */
+      grid-column:2/4;
+    }
+    .parent > .footer{
+      grid-area:footer;
+      border:1px solid black;
+      /* grid-row:4/5; */
+      grid-row:4/5;
+      grid-column:1/4; 
+     
+    }
+  </style>
+
+</head>
+<body>
+  <div class="parent">
+
+     <div class="header">
+        <h3>header</h3>
+     </div>
+     <div class="nav">
+        <h3>navbar</h3>
+      </div>
+    <div class="blog">
+        <h3>blog</h3>
+     </div>
+   <div class="footer">
+      <h3>footer</h3>
+    </div>
+
+  </div>
+</body>
+</html>

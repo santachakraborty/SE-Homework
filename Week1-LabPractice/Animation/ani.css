@@ -1,0 +1,49 @@
+p{
+  background-color:plum;
+  color:red;
+  height:150px;
+  width:150px;
+  text-align: center;
+  padding:20px;
+  margin:10px;
+  font-size: 1.5em;
+}
+.div1{
+  position:absolute;
+  top:40px;
+  left:0px;
+  animation-name:drive;
+  /* animation-duration: 5s; */
+  animation-duration: 2s;
+  /* animation-fill-mode: forward; */
+  /* animation-fill-mode:both; */
+  /* animation-iteration-count: infinite; */
+  /* animation-timing-function:ease-in; */
+  /* animation-timing-function:ease-out; */
+  animation-timing-function:ease-in-out ;
+
+}
+/* @keyframes drive{
+  from{
+    transform: translateX(0);
+    background-color: salmon;
+    
+  }
+  to{
+    transform: translateX(1100px);
+    background-color: slateblue;
+  }
+} */
+@keyframes drive{
+  0%{
+    transform: translateX(0);
+    background-color:yellow;
+  }
+  /* 20%,70%{
+    background-color: yellow;
+  } */
+  100%{
+    transform: translateX(1100px);
+    background-color:turquoise;
+  }
+}

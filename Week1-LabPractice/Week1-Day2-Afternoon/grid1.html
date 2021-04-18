@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grid-exercise</title>
+  <style>
+    body{
+      background:url("image/back_image.jpg");
+    }
+    .parent{
+      display:grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      width:100vw;
+      height:100vh;
+    }
+    .child{
+      padding:3rem;
+      border:1px black solid;
+      background:yellow;
+      font-size:100px;
+      border-radius: 50%;
+      font-weight: bold;
+      
+    }
+    .child:hover{
+      opacity:0;
+    }
+  </style>
+</head>
+<body>
+  <div class="parent">
+
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+    
+   </div>
+
+ </div>
+</body>
+</html>
